@@ -1,0 +1,25 @@
+{% extends 'core/base.html' %}
+{%load static%}
+    {% block content %}
+    <div>
+        <div class="text-center">
+            <img src="{%static 'core/images/user.png'%}" alt="" class="img-thumbnail mt-5" width="250px" height="150">
+        </div>
+        <div class="text-white m-5vtext-justify">
+            <h1 class="font-weight-bold hi-lite">Hello,</h1>
+            <div class="px-4" style="line-height:2rem;">
+                <p style="text-indent:100px;">
+                    My name is <b class="text-warning">Udit T. Parmar</b>. I was complated deploma IT at Sir BPTI Bhavnagar. with <span class="text-warning">6.52 </span>CGPA. I am current styding in GMIT-Bhavnagar in Computer branch. 
+                </p>
+                <p>
+                    Skill - HTML, CSS, Javascript
+                    Languages - C, python, basic Java, PHP
+                </p>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+            <a href="" class="btn btn-outline-info my-3 ">Contact</a>
+        </div>  
+    </div> 
+    {% endblock content %}

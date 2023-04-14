@@ -1,0 +1,20 @@
+
+.hi-lite{
+    font-family: 'Satisfy', cursive;
+} 
+html,body{
+    height:100%;
+}
+.container-fluid{
+    min-height: 100%;
+
+}
+
+/* service icon color */
+.i-color{
+    color: rgb(8, 8, 184);
+}
+.descr{
+    color:silver;
+    margin-bottom: 0px;
+}
